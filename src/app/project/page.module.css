@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1500px;
+  gap: 4rem;
+  margin: 4rem auto;
+}
+
+.nav {
+  color: #000000;
+  font-weight: bold;
+  font-size: large;
+}
+.nav:hover {
+  color: #00000072;
+}
+
+.aside {
+  width: 30%;
+}
+.aside p {
+  padding: 0.3rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.aside h2 {
+  margin-bottom: 2rem;
+}
+
+.preview {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.preview h2 {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .preview, .aside {
+    width: 100%;
+  }
+  .aside {
+    text-align: center;
+  }
+}

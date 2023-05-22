@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: start;
+  width: 100%;
+  gap: 6rem;
+}
+
+.link {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.nav {
+  color: #000000;
+  font-weight: bold;
+  font-size: large;
+}
+.nav:hover {
+  color: #00000072;
+}
+
+.dev {
+  width: 20%;
+  display: flex;
+  border: 1px solid #ccc;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 6px;
+}
+
+.dev img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+@media(max-width:767px){
+  .dev {
+    width: 100%;
+  }
+}
