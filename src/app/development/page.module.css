@@ -34,8 +34,8 @@
 }
 
 .dev img {
-  width: 100%;
-  border-radius: 6px;
+  width: 50%;
+  border-radius: 25%;
 }
 
 @media(max-width:767px){

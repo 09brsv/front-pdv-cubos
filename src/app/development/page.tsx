@@ -49,7 +49,7 @@ const Dashboard = async () => {
           getDevelopments.map((dev) => {
             return (
               <div key={dev.login} className={styles.dev}>
-                <div>
+                <div style={{textAlign: 'center'}}>
                   <img src={dev.avatar_url} alt={`imagem_${dev.name}`} />
                 </div>
                 <p>{dev.name}</p>
