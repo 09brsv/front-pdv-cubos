@@ -38,14 +38,21 @@ const Project = () => {
             allowFullScreen
           ></iframe>
         </div>
-      <div style={{margin: '4rem auto'}}>
-        <strong>
-          Link da api:{' '}
-          <Link href="https://desafio-final-cubos-academy.vercel.app/">
-            https://desafio-final-cubos-academy.vercel.app/
-          </Link>
-        </strong>
-      </div>
+        <div style={{ margin: '4rem auto' }}>
+          <strong>
+            Link da api:{' '}
+            <Link href="https://desafio-final-cubos-academy.vercel.app/">
+              https://desafio-final-cubos-academy.vercel.app/
+            </Link>
+          </strong>
+          <br /> <br />
+          <strong>
+            Link do repositório:{' '}
+            <Link href="https://github.com/douglas1777/Desafio-Final-Cubos-Academy">
+              https://github.com/douglas1777/Desafio-Final-Cubos-Academy
+            </Link>
+          </strong>
+        </div>
       </main>
     </div>
   );
