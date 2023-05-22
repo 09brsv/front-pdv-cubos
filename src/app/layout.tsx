@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <AuthProvider>
       <html lang="en">
-        <title>HomePage</title>
+        <title>Kakashi-pdv-cubos</title>
         <body>{children}</body>
       </html>
     </AuthProvider>
